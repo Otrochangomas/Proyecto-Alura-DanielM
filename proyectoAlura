@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador De Texto</title>
+   <link rel="stylesheet" href="./css/styleshet.css">
+</head>
+<body>
+  <header>
+    <img src="./img/Logo.svg" alt="logo" id="logo">
+  </header>
+  
+  
+    <section class="form-box">
+      <form action="">
+        <div class="label-info">
+          <img src="./img/Group.svg" alt="importante" id="imgInfo">  
+          <label class="info" for="input-texto">Solo letras minúsculas, sin acentos</label>
+        </div>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
+        <div id="botones">
+          <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+          <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+    
+        <!--Sección del texto Resultado-->
+    <section class="msg-box" id="cajaR">
+      <h1 id=""></h1>
+          
+      <<main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button" value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+      
+    </section>
+      <!--Roadpie-->  
+  <footer>
+    <p>Daniel Medina /p> 
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
